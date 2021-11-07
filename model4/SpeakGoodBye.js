@@ -28,10 +28,9 @@ var speakWord = "Good Bye";
 
 (function (window) {
   var byeSpeaker = {};
-  byeSpeaker.name = "John";
  // var greeting = "Hi ";
-  byeSpeaker.saygoodbye = function () {
-    console.log(speakWord + byeSpeaker.name);
+  byeSpeaker.saygoodbye = function (name) {
+    console.log(speakWord + " "+name);
   }
 
   window.byeSpeaker = byeSpeaker;
