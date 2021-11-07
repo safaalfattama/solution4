@@ -26,7 +26,7 @@ var speakWord = "Hello";
 // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
 // xxxx.xxxx = helloSpeaker;
 
-(function speak(window) {
+(function (window) {
   var helloSpeaker = {};
   helloSpeaker.name = "Yaakov";
   //var greeting = "Hello ";

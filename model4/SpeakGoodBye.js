@@ -26,11 +26,11 @@ var speakWord = "Good Bye";
 // 'byeSpeaker' on the global scope as well.
 // xxxx.xxxx = byeSpeaker;
 
-(function speak(window,name) {
+(function (window) {
   var byeSpeaker = {};
   byeSpeaker.name = "John";
  // var greeting = "Hi ";
-  byeSpeaker.sayHi = function () {
+  byeSpeaker.saygoodbye = function () {
     console.log(speakWord + byeSpeaker.name);
   }
 
